@@ -17,5 +17,13 @@ describe("calculator.js", () => {
 
       expect(result).toBe(expected);
     });
+
+    // it("it should handle any number of arguments", () => {
+    //     const expected = 100;
+
+    //     const result = calculator.add(100);
+
+    //     expect(result).toBe(expected);
+    //   });
   });
 });
