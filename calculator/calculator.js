@@ -3,5 +3,15 @@ module.exports = {
 };
 
 function add(a, b) {
-  return a + b;
+  if (a && b) {
+    return a + b;
+  } else if (a || b) {
+    if (a) {
+      return a;
+    } else {
+      return b;
+    }
+  } else {
+    return 0;
+  }
 }
